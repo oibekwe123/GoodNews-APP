@@ -10,7 +10,11 @@ import Foundation
 
 class WebService {
     
-    func getArticles(url: URL, completion: @escaping ([Article]?) -> ()) {
+    // changed the url to string since we used it in our ConstanturlFile 
+    func getArticles(url: String, completion: @escaping ([Article]?) -> ()) {
+        
+        // declared a constant url with a string and type url!
+        let url = URL(string:url)!
         
         URLSession.shared.dataTask(with: url) { data, response , error in
             

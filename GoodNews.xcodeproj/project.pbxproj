@@ -7,32 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04E1C426228A35B100E870DD /* GoodNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1C425228A35B100E870DD /* GoodNewsTests.swift */; };
+		04E1C430228A36D100E870DD /* ConstantUrlFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1C42F228A36D100E870DD /* ConstantUrlFile.swift */; };
+		04E1C432228A376200E870DD /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1C431228A376200E870DD /* NewsListViewController.swift */; };
+		04E1C434228A3D5D00E870DD /* NewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1C433228A3D5D00E870DD /* NewViewModel.swift */; };
 		04F711032284856E007775F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F711022284856E007775F0 /* AppDelegate.swift */; };
 		04F711082284856E007775F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F711062284856E007775F0 /* Main.storyboard */; };
 		04F7110A22848570007775F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F7110922848570007775F0 /* Assets.xcassets */; };
 		04F7110D22848570007775F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F7110B22848570007775F0 /* LaunchScreen.storyboard */; };
-		04F71116228485CA007775F0 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F71115228485CA007775F0 /* NewsListTableViewController.swift */; };
 		04F7111922848B75007775F0 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7111822848B75007775F0 /* WebService.swift */; };
 		04F7111C22849178007775F0 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7111B22849178007775F0 /* Article.swift */; };
-		04F7111F22849CC5007775F0 /* ArticlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7111E22849CC5007775F0 /* ArticlesViewModel.swift */; };
 		04F711222284A769007775F0 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F711212284A769007775F0 /* ArticleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		04E1C428228A35B100E870DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F710F72284856D007775F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F710FE2284856E007775F0;
+			remoteInfo = GoodNews;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		04E1C423228A35B100E870DD /* GoodNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E1C425228A35B100E870DD /* GoodNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNewsTests.swift; sourceTree = "<group>"; };
+		04E1C427228A35B100E870DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E1C42F228A36D100E870DD /* ConstantUrlFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantUrlFile.swift; sourceTree = "<group>"; };
+		04E1C431228A376200E870DD /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
+		04E1C433228A3D5D00E870DD /* NewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewModel.swift; sourceTree = "<group>"; };
 		04F710FF2284856E007775F0 /* GoodNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F711022284856E007775F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F711072284856E007775F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04F7110922848570007775F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F7110C22848570007775F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04F7110E22848570007775F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04F71115228485CA007775F0 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
 		04F7111822848B75007775F0 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		04F7111B22849178007775F0 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
-		04F7111E22849CC5007775F0 /* ArticlesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewModel.swift; sourceTree = "<group>"; };
 		04F711212284A769007775F0 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		04E1C420228A35B100E870DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04F710FC2284856E007775F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,10 +66,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04E1C424228A35B100E870DD /* GoodNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				04E1C425228A35B100E870DD /* GoodNewsTests.swift */,
+				04E1C427228A35B100E870DD /* Info.plist */,
+			);
+			path = GoodNewsTests;
+			sourceTree = "<group>";
+		};
+		04E1C42D228A365100E870DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04F711202284A74F007775F0 /* Cells */,
+				04F71114228485A4007775F0 /* Controllers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04E1C42E228A369500E870DD /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				04E1C42F228A36D100E870DD /* ConstantUrlFile.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		04F710F62284856D007775F0 = {
 			isa = PBXGroup;
 			children = (
 				04F711012284856E007775F0 /* GoodNews */,
+				04E1C424228A35B100E870DD /* GoodNewsTests */,
 				04F711002284856E007775F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				04F710FF2284856E007775F0 /* GoodNews.app */,
+				04E1C423228A35B100E870DD /* GoodNewsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,11 +113,11 @@
 		04F711012284856E007775F0 /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
-				04F711202284A74F007775F0 /* Cells */,
+				04E1C42E228A369500E870DD /* Utility */,
+				04E1C42D228A365100E870DD /* View */,
 				04F7111D22849C4C007775F0 /* ViewModels */,
 				04F7111A22849142007775F0 /* Models */,
 				04F7111722848B5C007775F0 /* Services */,
-				04F71114228485A4007775F0 /* Controllers */,
 				04F711022284856E007775F0 /* AppDelegate.swift */,
 				04F711062284856E007775F0 /* Main.storyboard */,
 				04F7110922848570007775F0 /* Assets.xcassets */,
@@ -79,7 +130,7 @@
 		04F71114228485A4007775F0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				04F71115228485CA007775F0 /* NewsListTableViewController.swift */,
+				04E1C431228A376200E870DD /* NewsListViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -103,7 +154,7 @@
 		04F7111D22849C4C007775F0 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				04F7111E22849CC5007775F0 /* ArticlesViewModel.swift */,
+				04E1C433228A3D5D00E870DD /* NewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -119,6 +170,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		04E1C422228A35B100E870DD /* GoodNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E1C42C228A35B100E870DD /* Build configuration list for PBXNativeTarget "GoodNewsTests" */;
+			buildPhases = (
+				04E1C41F228A35B100E870DD /* Sources */,
+				04E1C420228A35B100E870DD /* Frameworks */,
+				04E1C421228A35B100E870DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E1C429228A35B100E870DD /* PBXTargetDependency */,
+			);
+			name = GoodNewsTests;
+			productName = GoodNewsTests;
+			productReference = 04E1C423228A35B100E870DD /* GoodNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		04F710FE2284856E007775F0 /* GoodNews */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F7111122848570007775F0 /* Build configuration list for PBXNativeTarget "GoodNews" */;
@@ -146,6 +215,10 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "okechukwu Ibekwe";
 				TargetAttributes = {
+					04E1C422228A35B100E870DD = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 04F710FE2284856E007775F0;
+					};
 					04F710FE2284856E007775F0 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -165,11 +238,19 @@
 			projectRoot = "";
 			targets = (
 				04F710FE2284856E007775F0 /* GoodNews */,
+				04E1C422228A35B100E870DD /* GoodNewsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		04E1C421228A35B100E870DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04F710FD2284856E007775F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -183,20 +264,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		04E1C41F228A35B100E870DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E1C426228A35B100E870DD /* GoodNewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04F710FB2284856E007775F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E1C434228A3D5D00E870DD /* NewViewModel.swift in Sources */,
 				04F7111C22849178007775F0 /* Article.swift in Sources */,
-				04F7111F22849CC5007775F0 /* ArticlesViewModel.swift in Sources */,
 				04F7111922848B75007775F0 /* WebService.swift in Sources */,
-				04F71116228485CA007775F0 /* NewsListTableViewController.swift in Sources */,
 				04F711222284A769007775F0 /* ArticleTableViewCell.swift in Sources */,
 				04F711032284856E007775F0 /* AppDelegate.swift in Sources */,
+				04E1C430228A36D100E870DD /* ConstantUrlFile.swift in Sources */,
+				04E1C432228A376200E870DD /* NewsListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E1C429228A35B100E870DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F710FE2284856E007775F0 /* GoodNews */;
+			targetProxy = 04E1C428228A35B100E870DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		04F711062284856E007775F0 /* Main.storyboard */ = {
@@ -218,6 +316,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		04E1C42A228A35B100E870DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoodNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mac.GoodNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodNews.app/GoodNews";
+			};
+			name = Debug;
+		};
+		04E1C42B228A35B100E870DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoodNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mac.GoodNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodNews.app/GoodNews";
+			};
+			name = Release;
+		};
 		04F7110F22848570007775F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -371,6 +507,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		04E1C42C228A35B100E870DD /* Build configuration list for PBXNativeTarget "GoodNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E1C42A228A35B100E870DD /* Debug */,
+				04E1C42B228A35B100E870DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		04F710FA2284856D007775F0 /* Build configuration list for PBXProject "GoodNews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
