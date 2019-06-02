@@ -13,7 +13,7 @@
         <!--GoodNews-->
         <scene sceneID="Kne-XF-G3Q">
             <objects>
-                <viewController id="hdF-EN-BRK" customClass="NewsListViewController" customModule="GoodNews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NewsListViewController" id="hdF-EN-BRK" customClass="NewsListViewController" customModule="GoodNews" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PvR-4M-fv7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,17 +64,19 @@
                     </view>
                     <navigationItem key="navigationItem" title="GoodNews" id="Dnr-y6-B6O"/>
                     <connections>
+                        <outlet property="dataProvider" destination="vUs-cO-IKP" id="dpd-9p-DdL"/>
+                        <outlet property="dataProvider1" destination="vUs-cO-IKP" id="KZB-8a-vVU"/>
                         <outlet property="tableView" destination="E5W-tO-1pR" id="NgG-0m-RD7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="36X-3a-pVI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="vUs-cO-IKP" customClass="NewsListDataProvider" customModule="GoodNews" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="2660.8695652173915" y="71.651785714285708"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Keo-wd-oNQ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="R8g-08-GBf" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0oa-NM-IBI" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WDj-3d-Gi0">
@@ -86,6 +88,7 @@
                         <segue destination="hdF-EN-BRK" kind="relationship" relationship="rootViewController" id="5Um-lJ-pzD"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R8g-08-GBf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1750.7246376811595" y="71.651785714285708"/>
         </scene>

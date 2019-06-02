@@ -15,20 +15,22 @@ protocol NewsListProtocol {
 
 class NewsListViewController: UIViewController {
     
-    @IBOutlet weak var tableView: UITableView!
     
+    
+    @IBOutlet var tableView: UITableView!
+    @IBOutlet var dataProvider: UITableViewDataSource!
+    @IBOutlet var dataProvider1: UITableViewDelegate!
     // created a variable newViewModel with a protocol of NewViewModelProtocol with force unwrapping
     var newViewModel:NewsViewModelProtocol!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Loaded the variable newViewModel with the ViewModel class
         //Loaded the variable newViewModel with the protocol function fetchArticles
         newViewModel = NewsViewModel(newsViewCtrl: self)
         newViewModel.fetchArticles()
-        
-        
+        tableView.dataSource = dataProvider
+        tableView.delegate = dataProvider1 
     }
     
 }

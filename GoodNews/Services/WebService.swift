@@ -9,8 +9,7 @@
 import Foundation
 
 class WebService {
-    
-    // changed the url to string since we used it in our ConstanturlFile 
+
     func getArticles(url: String, completion: @escaping ([Article]?) -> ()) {
         
         // declared a constant url with a string and type url!
@@ -23,16 +22,24 @@ class WebService {
                 completion(nil)
             } else if let data = data {
                 
-        let articleList = try? JSONDecoder().decode(ArticleList.self, from: data)
+                let articleList = try? JSONDecoder().decode(ArticleList.self, from: data)
                 
                 if let articleList = articleList {
                     completion(articleList.articles)
                 }
                 
-               print(articleList?.articles)
+                print(articleList?.articles)
             }
             
             
-        }.resume()
+            }.resume()
     }
+    
+
 }
+    
+
+    
+    
+
+

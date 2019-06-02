@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04390E86229B749C004412C5 /* NewsListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04390E85229B749C004412C5 /* NewsListDataProvider.swift */; };
 		04E1C426228A35B100E870DD /* GoodNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1C425228A35B100E870DD /* GoodNewsTests.swift */; };
 		04E1C430228A36D100E870DD /* ConstantUrlFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1C42F228A36D100E870DD /* ConstantUrlFile.swift */; };
 		04E1C432228A376200E870DD /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1C431228A376200E870DD /* NewsListViewController.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04390E85229B749C004412C5 /* NewsListDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListDataProvider.swift; sourceTree = "<group>"; };
 		04E1C423228A35B100E870DD /* GoodNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E1C425228A35B100E870DD /* GoodNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNewsTests.swift; sourceTree = "<group>"; };
 		04E1C427228A35B100E870DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				04E1C431228A376200E870DD /* NewsListViewController.swift */,
+				04390E85229B749C004412C5 /* NewsListDataProvider.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				04E1C434228A3D5D00E870DD /* NewViewModel.swift in Sources */,
 				04F7111C22849178007775F0 /* Article.swift in Sources */,
 				04F7111922848B75007775F0 /* WebService.swift in Sources */,
+				04390E86229B749C004412C5 /* NewsListDataProvider.swift in Sources */,
 				04F711222284A769007775F0 /* ArticleTableViewCell.swift in Sources */,
 				04F711032284856E007775F0 /* AppDelegate.swift in Sources */,
 				04E1C430228A36D100E870DD /* ConstantUrlFile.swift in Sources */,
